@@ -1,4 +1,4 @@
-h1{
+h1 {
   font-family: verdana;
   font-weight: normal;
   font-size: 50px;
@@ -6,7 +6,16 @@ h1{
   text-align: center;
 }
 
-.download{
+.download {
   color: Aquamarine;
   font-size: 16px;
+  text-decoration: underline;
+}
+
+video {
+  object-fit: contain;
+  width: 300px;
+  height: 150px;
+  
+
 }
