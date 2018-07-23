@@ -1,21 +1,53 @@
-h1 {
+h1,
+h2,
+p {
   font-family: verdana;
-  font-weight: normal;
+}
+
+
+
+h1 {
+  font-weight: 700px;
   font-size: 50px;
   color: white;
   text-align: center;
+}
+
+h2 {
+  display: block;
+  font-size: 42px;
+  font-weight:300px;
+  text-align: center;
+  color: white;
 }
 
 .download {
   color: Aquamarine;
   font-size: 16px;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 video {
   object-fit: contain;
-  width: 300px;
-  height: 150px;
-  
+  width: 404px;
+  height: 720px;
+  text-align: center;;
+}
 
+img {
+
+align-items: center;
+}
+
+
+
+p {
+  color: grey;
+  font-size: 21px;
+  text-align: center;
+}
+
+.copyright {
+  text-align: right;
 }
